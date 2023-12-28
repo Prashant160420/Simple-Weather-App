@@ -10,8 +10,6 @@ This is a simple weather application that provides basic weather information. It
 ## Project Structure
 
 ```plaintext
-weather-app/
-│
 ├── index.html
 ├── style.css
 ├── script.js
