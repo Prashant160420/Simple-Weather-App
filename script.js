@@ -10,7 +10,7 @@ form.addEventListener('submit', searchForLocation)
 let target = 'Mumbai'
 
 const fetchResults = async (targetLocation) => {
-    let url = `http://api.weatherapi.com/v1/current.json?key=6869190c05b74b5ebc0100408232812&q=${targetLocation}&aqi=no`
+    let url = `https://api.weatherapi.com/v1/current.json?key=6869190c05b74b5ebc0100408232812&q=${targetLocation}&aqi=no`
     const res = await fetch(url)
     const data = await res.json()
     console.log(res)
